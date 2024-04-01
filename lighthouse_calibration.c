@@ -36,6 +36,14 @@
 #include "cf_math.h"
 #include "physicalConstants.h"
 
+float32_t arm_cos_f32(float32_t x){
+  return 0;
+}
+
+float32_t arm_sin_f32(float32_t x){
+  return 0;
+}
+
 void lighthouseCalibrationInitFromFrame(lighthouseCalibration_t *calib, struct ootxDataFrame_s *frame){
     calib->sweep[0].phase = frame->phase0;
     calib->sweep[0].tilt = frame->tilt0;

@@ -55,7 +55,6 @@
 
 #include "lighthouse_bitcraze.h"
 
-
 static const uint32_t MAX_WAIT_TIME_FOR_HEALTH_MS = 4000;
 
 // https://www.bitcraze.io/documentation/repository/lighthouse-bootloader/master/

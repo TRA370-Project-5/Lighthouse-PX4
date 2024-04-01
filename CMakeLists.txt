@@ -54,47 +54,40 @@ px4_add_module(
 			${CMSIS_DSP}/Include
 
 		SRCS
-			cf_math.h
-			cfassert.c
-			cfassert.h
-			crc32.c
-			crc32.h
 			lighthouse_bitcraze.cpp
-			lighthouse_bitcraze.h
+			cfassert.c
+			crc32.c
 			lighthouse_calibration.c
-			lighthouse_calibration.h
 			lighthouse_geometry.c
-			lighthouse_geometry.h
 			lighthouse_position_est.c
-			lighthouse_position_est.h
-			lighthouse_state.h
-			lighthouse_types.h
 			module.yaml
 			ootx_decoder.c
-			ootx_decoder.h
-			physicalConstants.h
 			pulse_processor_v1.c
-			pulse_processor_v1.h
 			pulse_processor_v2.c
-			pulse_processor_v2.h
 			pulse_processor.c
-			pulse_processor.h
-			stabilizer_types.h
 
-			${CMSIS_ROOT}/CMSIS/Core/Include/cmsis_compiler.h
-			${CMSIS_ROOT}/CMSIS/Core/Include/cmsis_gcc.h
-			${CMSIS_DSP}/Include/arm_common_tables.h
-			${CMSIS_DSP}/Include/arm_const_structs.h
-			${CMSIS_DSP}/Include/arm_math.h
-			${CMSIS_DSP}/Source/BasicMathFunctions/arm_mult_q15.c
-			${CMSIS_DSP}/Source/CommonTables/arm_common_tables.c
-			${CMSIS_DSP}/Source/CommonTables/arm_const_structs.c
-			${CMSIS_DSP}/Source/SupportFunctions/arm_float_to_q15.c
-			${CMSIS_DSP}/Source/TransformFunctions/arm_bitreversal2.c
-			${CMSIS_DSP}/Source/TransformFunctions/arm_cfft_q15.c
-			${CMSIS_DSP}/Source/TransformFunctions/arm_cfft_radix4_q15.c
-			${CMSIS_DSP}/Source/TransformFunctions/arm_rfft_init_q15.c
-			${CMSIS_DSP}/Source/TransformFunctions/arm_rfft_q15.c
+			cf_math.h
+			cfassert.h
+			crc32.h
+			lighthouse_bitcraze.h
+			lighthouse_calibration.h
+			lighthouse_geometry.h
+			lighthouse_position_est.h
+			lighthouse_types.h
+			ootx_decoder.h
+			lighthouse_state.h
+			stabilizer_types.h
+			pulse_processor.h
+			pulse_processor_v2.h
+			pulse_processor_v1.h
+			physicalConstants.h
+
+
+			${CMSIS_DSP}/Source/
+			${CMSIS_DSP}/Source/
+			${CMSIS_DSP}/Source/
+			${CMSIS_DSP}/Source/
+			${CMSIS_DSP}/Source/
 
 		MODULE_CONFIG
 			module.yaml

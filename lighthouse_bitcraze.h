@@ -52,12 +52,13 @@
 #include <uORB/topics/sensor_lighthouse.h>
 #include <uORB/topics/parameter_update.h>
 
+extern "C" {
 #include "pulse_processor.h"
 #include "pulse_processor_v1.h"
 #include "pulse_processor_v2.h"
 
 #include "lighthouse_position_est.h"
-
+}
 #define LIGHTHOUSE_DEFAULT_PORT "/dev/ttyS1"
 
 using namespace time_literals;
