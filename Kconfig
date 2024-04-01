@@ -1,0 +1,5 @@
+menuconfig DRIVERS_LIGHTHOUSE_BITCRAZE_LIGHTHOUSE
+	bool "lighthouse_bitcraze"
+	default n
+	---help---
+		Enable support for lighthouse bitcraze
